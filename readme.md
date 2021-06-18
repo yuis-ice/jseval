@@ -20,7 +20,7 @@ docker run --rm jseval --help
 Run:
 
 ```
-$ docker run --rm jseval --url "https://www.tradingview.com/" --evaluate 'JSON.stringify([document.location.href, document.title])' --headless --output
+docker run --rm jseval --url "https://www.tradingview.com/" --evaluate 'JSON.stringify([document.location.href, document.title])' --headless --output
 ```
 
 stdout would be like:
